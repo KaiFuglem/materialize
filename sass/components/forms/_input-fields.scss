@@ -12,7 +12,7 @@
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-  color: $placeholder-text-color;
+  color: darken($placeholder-text-color, 20%);
 }
 
 :-ms-input-placeholder {
